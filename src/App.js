@@ -6,6 +6,7 @@ import Berlin from "./Components/Berlin";
 import London from "./Components/London";
 import { Col, Container, Row } from "react-bootstrap";
 import Tenerife from "./Components/Tenerife";
+
 function App() {
   return (
     <>
