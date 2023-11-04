@@ -20,10 +20,10 @@ function CardEx({ weatherData }) {
           <hr></hr>
           <div className="d-flex flex-column ">
             <div>
-              <p>T: {weatherData.main.temp} °C</p>
+              <p className="m-1">T: {weatherData.main.temp} °C</p>
             </div>
             <div>
-              <p>
+              <p className="m-1">
                 Sunrise:{" "}
                 {new Date(weatherData.sys.sunrise * 1000)
                   .toLocaleTimeString("en-IN")
@@ -32,7 +32,7 @@ function CardEx({ weatherData }) {
               </p>
             </div>
             <div>
-              <p>
+              <p className="m-1">
                 Sunset:{" "}
                 {new Date(weatherData.sys.sunset * 1000)
                   .toLocaleTimeString("en-IN")
@@ -42,10 +42,10 @@ function CardEx({ weatherData }) {
             </div>
             <div>
               {" "}
-              <p>Description: {weatherData.weather[0].main}</p>
+              <p className="m-1">Sky: {weatherData.weather[0].main}</p>
             </div>
             <div>
-              <p>Humidity: {weatherData.main.humidity} %</p>
+              <p className="m-1">Humidity: {weatherData.main.humidity} %</p>
             </div>
             {/* <div>
               {" "}

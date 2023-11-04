@@ -15,9 +15,9 @@ function App() {
           <span>THE WEATHER</span>
         </div>
         <div className="d-flex justify-content-center">
-          <div>
+          <div className="today">
             {" "}
-            <p className="text-white">
+            <p className="text-white fs-3">
               Day: {moment().format("dddd")} {moment().format("LL")}
             </p>
           </div>
