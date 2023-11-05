@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Container className="d-flex flex-column justify-content-center align-items-center vh-100">
-        <div className="text-center text-white">
+        <div className="text-center text-white titolo">
           <span>THE WEATHER</span>
         </div>
         <div className="d-flex justify-content-center">
@@ -22,7 +22,7 @@ function App() {
             </p>
           </div>
         </div>
-        <Row className="mt-3 gy-3 gx-5">
+        <Row className=" mt-2 gy-5 gx-5">
           <Milan></Milan>
           <Berlin></Berlin>
           <London></London>
