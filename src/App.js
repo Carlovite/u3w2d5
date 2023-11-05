@@ -3,7 +3,7 @@ import moment from "moment";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Milan from "./Components/Milan";
 import Berlin from "./Components/Berlin";
-import London from "./Components/London";
+import Tokyo from "./Components/Tokyo";
 import { Col, Container, Row } from "react-bootstrap";
 import Tenerife from "./Components/Tenerife";
 
@@ -25,7 +25,7 @@ function App() {
         <Row className=" mt-2 gy-5 gx-5">
           <Milan></Milan>
           <Berlin></Berlin>
-          <London></London>
+          <Tokyo></Tokyo>
           <Tenerife></Tenerife>
         </Row>
       </Container>
