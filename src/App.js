@@ -10,7 +10,7 @@ import Tenerife from "./Components/Tenerife";
 function App() {
   return (
     <>
-      <Container className="d-flex flex-column justify-content-center align-items-center vh-100">
+      <Container className="d-flex flex-column justify-content-center align-items-center">
         <div className="text-center text-white titolo">
           <span>THE WEATHER</span>
         </div>
@@ -22,7 +22,7 @@ function App() {
             </p>
           </div>
         </div>
-        <Row className=" mt-2 gy-5 gx-5">
+        <Row className=" mt-2 gy-5 gx-5 mb-5">
           <Milan></Milan>
           <Berlin></Berlin>
           <Tokyo></Tokyo>
